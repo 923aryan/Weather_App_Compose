@@ -57,7 +57,7 @@ fun MainScreen(viewmodel: WeatherViewModel = viewModel(),
         //{onNextButtonClicked}
         Spacer(modifier = Modifier.size(35.dp))
         Body(viewmodel)
-        Spacer(modifier = Modifier.size(35.dp))
+        Spacer(modifier = Modifier.size(34.dp))
         Description(viewmodel)
         // after description card
         Spacer(modifier = Modifier.size(35.dp))
