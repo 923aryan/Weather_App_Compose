@@ -28,7 +28,7 @@ private val retrofit = Retrofit.Builder()
     }.asConverterFactory(MediaType.get("application/json")))
     .baseUrl(BASE_URL)
     .build()
-private const val apiKey = "b04650779f1e4c273c1d11109f160bde"
+private const val apiKey = ""
 
 interface WeatherApiService {
     @GET("data/2.5/weather?")
